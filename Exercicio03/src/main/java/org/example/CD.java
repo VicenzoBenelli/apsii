@@ -17,6 +17,7 @@ public class CD extends Produto implements InfoGerais{
         System.out.println("\n--- Informações do CD ---");
         System.out.println("Nome: " + getNome());
         System.out.println("Preço: R$ " + getPreco());
-        System.out.println("Número de faixas: " + numFaixas);
+        System.out.println("Número de faixas: " + getNumFaixas());
     }
+
 }
